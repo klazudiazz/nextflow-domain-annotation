@@ -16,15 +16,3 @@ The workflow executes the following processes:
 * **integrate**: Merges the identified M23-containing protein sequences and their corresponding domain search results into comprehensive summary files using the `collectFile()` operator.
 * **annotdom**: Generates a GFF3 annotation file based on the search results, indicating the exact locations of all found domains on the protein sequences.
 * **archchart**: Renders an HTML schematic representing the domain architectures of all analyzed M23-containing proteins, incorporating cluster frequency data.
-
-## Requirements
-
-* **Nextflow** (DSL2 enabled).
-* **Conda**: All Python scripts and tools are executed within a unified Conda environment defined in `envs/powb-pyhmmer.yml`.
-
-## Usage
-
-To run the pipeline, use the following Nextflow command with the `-with-conda` argument:
-
-```bash
-nextflow run main.nf -with-conda
