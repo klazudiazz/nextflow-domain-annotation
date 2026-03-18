@@ -1,6 +1,6 @@
 # M23 Metalloendopeptidase Domain Analysis Pipeline
 
-A Nextflow (DSL2) computational pipeline designed to identify and analyze protein sequences containing the M23 metalloendopeptidase domain (PFAM: PF01551) within bacterial genome assemblies. The pipeline searches for the M23 domain, identifies other co-occurring domains, annotates their genomic locations, and generates visual charts of domain architectures.
+A Nextflow (DSL2) computational pipeline designed to identify and analyze protein sequences containing the M23 metalloendopeptidase domain (PFAM: PF01551) within bacterial genome assemblies. The pipeline searches for the M23 domain, identifies other co-occurring domains, annotates their genomic locations and generates visual charts of domain architectures.
 
 ## Pipeline Steps
 
